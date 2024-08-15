@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.swiper {
+    width: 80%;
+    height: 40vh;
+    overflow: visible !important;
+  }
+
+  @media (max-width: 768px) {
+    .swiper{
+        height: 70vh;
+    }
+  }
+  
+  .swiper-slide {
+    width: 80% !important;
+
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-pagination{
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide-prev,.swiper-slide-next{
+    opacity: 0.5;
+  }
+  .swiper-pagination-bullet{
+    display: flex !important;
+    align-items: center;
+    background-color: white !important;
+    justify-content: center;
+    border-radius: 20px !important;
+    height: 1vh !important;
+    width: 5vw !important;
+  } 
+  .swiper-pagination-bullet-active{
+        background-color: orange !important;
+  }
+  
+ 
+  

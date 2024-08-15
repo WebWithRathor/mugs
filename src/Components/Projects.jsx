@@ -17,33 +17,32 @@ const categories = ["All", "UI/UX", "Web Design", "App Design", "Graphic Design"
 
 const Projects = () => {
     return (
-        <div className="py-16 bg-white">
+        <div className="py-16 px-8 md:px-44 dark:bg-black dark:text-white text-black bg-white">
             <div className="text-center">
-                <h2 className="text-4xl font-bold text-black">My Projects</h2>
-                <p className="mt-4 text-gray-600 max-w-xl mx-auto">
+                <h2 className="text-4xl font-bold ">My Projects</h2>
+                <p className="mt-4 dark:text-white text-gray-600 max-w-xl mx-auto">
                     Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus
                 </p>
             </div>
 
-            <div className="mt-8 flex justify-center space-x-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4 items-center">
                 {categories.map((category, index) => (
-                    <button
+                    <h3
                         key={index}
-                        className={`px-4 py-2 rounded-full border ${category === "Web Design"
-                            ? "bg-orange-500 text-white"
-                            : "bg-white text-black border-gray-300"
-                            } hover:bg-gray-100 focus:outline-none`}
+                        className={`px-4 py-2 rounded-full border 
+                            dark:bg-black bg-white dark:text-white text-black dark:border-white border-gray-300"
+                            hover:bg-orange-500 dark:hover:text-white focus:outline-none`}
                     >
                         {category}
-                    </button>
+                    </h3>
                 ))}
             </div>
 
-            <div className="mt-12 flex justify-center gap-10">
+            <div className="mt-12 flex justify-center md:flex-nowrap flex-wrap gap-10">
                 {projects.map((project, index) => (
-                    <div className=" relative w-1/3 rounded-lg">
+                    <div key={index} className=" relative w-full md:w-1/3 rounded-lg">
                         <div
-                            key={index}
+                            
                             className="bg-gray-100 p-8 relative h-[60vh] overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                         >
                             <img
