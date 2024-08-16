@@ -14,7 +14,7 @@ const ContactForm = () => {
           placeholder="Enter Your Email"
           className="p-3 border md:w-1/2 border-gray-300 rounded focus:outline-none"
         />
-        <h3 className="bg-orange-500 text-white p-3 rounded hover:bg-orange-600 focus:outline-none">
+        <h3 className="bg-orange-500 cursor-pointer text-white p-3 rounded hover:bg-orange-600 focus:outline-none">
           Contact Me
         </h3>
       </div>

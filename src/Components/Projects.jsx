@@ -29,8 +29,8 @@ const Projects = () => {
                 {categories.map((category, index) => (
                     <h3
                         key={index}
-                        className={`px-4 py-2 rounded-full border 
-                            dark:bg-black bg-white dark:text-white text-black dark:border-white border-gray-300"
+                        className={`px-4 py-2 rounded-lg border 
+                            dark:bg-black cursor-pointer bg-white dark:text-white text-black dark:border-white border-gray-300"
                             hover:bg-orange-500 dark:hover:text-white focus:outline-none`}
                     >
                         {category}
