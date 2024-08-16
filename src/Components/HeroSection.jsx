@@ -11,7 +11,7 @@ export default function HeroSection() {
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi
           convallis pretium. Turpis tempus pharetra.
         </p>
-        <h3 className="mt-6 px-10 py-2 bg-orange-500 text-white rounded-md  hover:bg-orange-600 transition">
+        <h3 className="mt-6 px-10 py-2 w-max bg-orange-500 text-white rounded-md  hover:bg-orange-600 transition">
           Hire Me
         </h3>
       </div>
