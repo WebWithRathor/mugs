@@ -11,8 +11,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='dark:text-white text-black w-full bg-black' >
-      <Nav />
+    <div className='dark:text-white text-black w-full overflow-hidden bg-black' >
       <HeroSection />
       <AboutMe />
       <Services />

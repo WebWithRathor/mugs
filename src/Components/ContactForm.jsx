@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col items-center justify-center p-6 py-20 dark:bg-black bg-white">
+    <div className="flex w-full flex-col items-center justify-center p-6 py-20 dark:bg-black bg-white">
       <h1 className="text-5xl font-bold mb-4 text-center">Lets Design Together</h1>
       <p className="text-center w-full md:w-1/2 mt-2 mb-6">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus
